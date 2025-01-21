@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Regular", sans-serif;
+    background-color: #1c1c1c;
+}
+
+section {
+    padding-top: 50px;
+    font-size: 14px;
+}
+
+header {
+    background-color: #e9f035;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e9f035;
+}
+
+nav h1{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #e9f035;
+    color: #1c1c1c;
+}
+
+.login-btn{
+    background-color: #e9f035;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 42px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.section-form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #1c1c1c;
+    border-radius: 4px;
+    padding: 40px 20px;
+    width: 400px;
+    color: #ffffff;
+}
+
+.section-form input{
+    padding: 9px 15px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 2px;
+    color: #ffffff;
+}
+
+.section-form div{
+    width: 100%;
+}
+
+.section-form label{
+    margin-left: 1px;
+}
+
+.section-form input::placeholder{
+    color: #d9d9d9;
+}
+
+input.invalid {
+    border-color: #f56a65;
+    color: #f56a65;
+}
+
+.section-form button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+ }
+ 
+.section-form h3{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: none;
+    color: green;
+}
